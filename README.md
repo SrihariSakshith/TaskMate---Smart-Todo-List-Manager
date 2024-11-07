@@ -1,3 +1,6 @@
+This is how my project looks
+https://github.com/SrihariSakshith/TaskMate---Smart-Todo-List-Manager/blob/main/Project%20Screenshot.png
+
 ## Getting Started
 
 Follow these steps to set up and run the project on your local machine.
