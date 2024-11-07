@@ -1,0 +1,23 @@
+/* Footer component CSS */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    margin-top: auto;  /* Pushes footer to the bottom */
+  }
+  
+  /* Ensure the body takes full height */
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;  /* Ensures the body takes at least the full height of the viewport */
+    margin: 0;
+  }
+  
+  /* Other styling for content */
+  .main-content {
+    flex-grow: 1; /* Ensures the content area takes available space and pushes the footer down */
+  }
+  

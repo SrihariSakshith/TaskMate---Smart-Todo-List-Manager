@@ -1,0 +1,24 @@
+/* Todos component CSS */
+.todos {
+    min-height: 50vh; /* Ensures a minimum height to push the footer down */
+    padding: 1rem;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  hr {
+    border: 1px solid #ddd;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  

@@ -1,0 +1,98 @@
+/* Header component CSS */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .nav-links a:hover {
+    color: #ddd;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar {
+    padding: 0.3rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    outline: none;
+    font-size: 1rem;
+  }
+  
+  .search-button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 0.3rem 0.6rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 0.3rem;
+  }
+  
+  .search-button:hover {
+    background-color: #777;
+  }
+  
+  .hamburger {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      background-color: #333;
+      position: absolute;
+      top: 50px;
+      right: 0;
+      width: 100%;
+      padding: 1rem;
+      text-align: center;
+    }
+  
+    .nav-links li {
+      margin: 0.5rem 0;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  
+    .hamburger.active + .nav-links,
+    .nav-links.active {
+      display: flex;
+    }
+  }
+  

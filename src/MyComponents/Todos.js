@@ -1,12 +1,13 @@
 import React from 'react';
 import TodoItem from './TodoItem';
+import './Todos.css'
 
 const Todos = (props) => {
   return (
-    <div>
-      <h2 align="center">Todos List</h2>
+    <div className="todos">
+      <h2>Todos List</h2>
       {props.todos.length === 0 ? (
-        <p align="center">No todos to display</p>
+        <p>No todos to display</p>
       ) : (
         props.todos.map((item) => (
           <div key={item.sno}>

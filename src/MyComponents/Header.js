@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom';
+import './Header.css'
 
 export default function Header(props) {
   return (
@@ -22,12 +23,12 @@ export default function Header(props) {
     </>
   )
 }
-Header.default={
+Header.defaultProps={
     title:"Hi",
     searchBar:true
 }
 
 Header.propTypes={
     title:PropTypes.string,
-    searchBar:PropTypes.bool.isRequired
+    // searchBar:PropTypes.bool.isRequired
 }

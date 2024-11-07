@@ -40,7 +40,7 @@ const AddTodo = (props) => {
         </label>
         <br /><br />
         <div style={subcontainer}>
-          <input type="submit" value="Submit" style={btn} />
+          <input type="submit" value="Add Todo" style={btn} />
         </div>
       </form>
       <br /><br />
